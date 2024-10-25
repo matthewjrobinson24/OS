@@ -122,7 +122,7 @@ Task: Determine the file that opened the ports. Identify the process that opened
 
       # look for McAfee.exe
 ________________________________________________________________________________________________________________________________________
-## 3:Scenario:
+## 3: Scenario:
 The System is infected with malware.
 
 Task: Search for any artifacts and investigate them. The flag is the name of the malware artifact file. - ``` SpotifySetup.exe ```
@@ -152,7 +152,7 @@ Task: Identify the port. The flag is the port number. - ``` 22222 ```
 
       netstat -lntu
 ________________________________________________________________________________________________________________________________________
-## 8:Scenario:
+## 8: Scenario:
 The System is infected with malware. You have found the non-standard open port.
 
 Task: Identify the process that opened the port and identify where it is running from. The flag is in the same file. - ``` N@uGhTy_5cR1pT ```
