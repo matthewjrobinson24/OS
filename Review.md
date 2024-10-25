@@ -159,9 +159,12 @@ Task: Identify the process that opened the port and identify where it is running
 
       cat /tmp/script.sh
 ________________________________________________________________________________________________________________________________________
-## 9:
+## 9: Scenario:
+The System is infected with malware.
 
+Task: Identify and gather information on how the malware is starting. Identify the start mechanism and the flag will be located in that file. - ``` F1@g=B@d_Cr0N ```
 
+      sudo cat /var/spool/cron/crontabs/root
 ________________________________________________________________________________________________________________________________________
 ## 10: Scenario:
 The System is infected with malware. Even after your team has removed the file and rebooted the system, the malware continues to propagate.
