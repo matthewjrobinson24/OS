@@ -113,6 +113,8 @@ The System is infected with malware. You received a report that there were unusu
 Task: Investigate and identify the port. The flag is the port.
 
 ``` 23456 ```
+
+      netstat -ano
 ________________________________________________________________________________________________________________________________________
 ## 2: Scenario:
 The System is infected with malware. You have discovered the unusual open port.
@@ -120,6 +122,8 @@ The System is infected with malware. You have discovered the unusual open port.
 Task: Determine the file that opened the ports. Identify the process that opened the port and identify where it is running from. The flag is in the same directory.
 
 ``` I_m1gHt_B3_B@d ```
+
+      # look for McAfee.exe
 ________________________________________________________________________________________________________________________________________
 ## 3:Scenario:
 The System is infected with malware.
@@ -127,6 +131,8 @@ The System is infected with malware.
 Task: Search for any artifacts and investigate them. The flag is the name of the malware artifact file.
 
 ``` SpotifySetup.exe ```
+
+      
 ________________________________________________________________________________________________________________________________________
 ## 4: Scenario:
 The system is infected with malware
@@ -134,6 +140,8 @@ The system is infected with malware
 Task: Determine what would have initially caused this malware to run. The flag is found in the same location that caused the malware to kick off. Look for something out of place.
 
 ``` Fi1e_not_found ```
+
+      
 ________________________________________________________________________________________________________________________________________
 ## 5:
 
@@ -143,9 +151,14 @@ ________________________________________________________________________________
 
 
 ________________________________________________________________________________________________________________________________________
-## 7:
+## 7: Scenario:
+The System is infected with malware. You receive a report that a non-standard port is open on your system
 
+Task: Identify the port. The flag is the port number.
 
+``` 22222 ```
+
+      netstat -lntu
 ________________________________________________________________________________________________________________________________________
 ## 8:
 
