@@ -110,17 +110,14 @@ ________________________________________________________________________________
 ## 1: Scenario:
 The System is infected with malware. You received a report that there were unusual network ports open on the machine.
 
-Task: Investigate and identify the port. The flag is the port.
-
-``` 23456 ```
+Task: Investigate and identify the port. The flag is the port. - ``` 23456 ```
 
       netstat -ano
 ________________________________________________________________________________________________________________________________________
 ## 2: Scenario:
 The System is infected with malware. You have discovered the unusual open port.
 
-Task: Determine the file that opened the ports. Identify the process that opened the port and identify where it is running from. The flag is in the same directory.
-
+Task: Determine the file that opened the ports. Identify the process that opened the port and identify where it is running from. The flag is in the same directory. - 
 ``` I_m1gHt_B3_B@d ```
 
       # look for McAfee.exe
@@ -128,20 +125,17 @@ ________________________________________________________________________________
 ## 3:Scenario:
 The System is infected with malware.
 
-Task: Search for any artifacts and investigate them. The flag is the name of the malware artifact file.
+Task: Search for any artifacts and investigate them. The flag is the name of the malware artifact file. - ``` SpotifySetup.exe ```
 
-``` SpotifySetup.exe ```
-
-      
+      #
 ________________________________________________________________________________________________________________________________________
 ## 4: Scenario:
 The system is infected with malware
 
-Task: Determine what would have initially caused this malware to run. The flag is found in the same location that caused the malware to kick off. Look for something out of place.
-
+Task: Determine what would have initially caused this malware to run. The flag is found in the same location that caused the malware to kick off. Look for something out of place. - 
 ``` Fi1e_not_found ```
 
-      
+      #
 ________________________________________________________________________________________________________________________________________
 ## 5:
 
@@ -154,18 +148,14 @@ ________________________________________________________________________________
 ## 7: Scenario:
 The System is infected with malware. You receive a report that a non-standard port is open on your system
 
-Task: Identify the port. The flag is the port number.
-
-``` 22222 ```
+Task: Identify the port. The flag is the port number. - ``` 22222 ```
 
       netstat -lntu
 ________________________________________________________________________________________________________________________________________
 ## 8:Scenario:
 The System is infected with malware. You have found the non-standard open port.
 
-Task: Identify the process that opened the port and identify where it is running from. The flag is in the same file.
-
-``` N@uGhTy_5cR1pT ```
+Task: Identify the process that opened the port and identify where it is running from. The flag is in the same file. - ``` N@uGhTy_5cR1pT ```
 
       cat /tmp/script.sh
 ________________________________________________________________________________________________________________________________________
@@ -173,7 +163,10 @@ ________________________________________________________________________________
 
 
 ________________________________________________________________________________________________________________________________________
-## 10:
+## 10: Scenario:
+The System is infected with malware. Even after your team has removed the file and rebooted the system, the malware continues to propagate.
 
+Task: Investigate and identify how this is occurring. The flag will be in the file. - ``` B@$h_Pr0F1l3_F1@g ```
 
+      cat /etc/profile
 ________________________________________________________________________________________________________________________________________
