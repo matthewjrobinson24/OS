@@ -137,11 +137,21 @@ Task: Determine what would have initially caused this malware to run. The flag i
 
       #
 ________________________________________________________________________________________________________________________________________
-## 5:
+## 5: Scenario:
+The System is infected with malware
+
+Task: Determine what is causing the port-opening executable to launch. The flag is the name of this triggering mechanism. - ```  ```
+
+
 
 
 ________________________________________________________________________________________________________________________________________
-## 6:
+## 6: Scenario:
+The System is infected with malware. Upon investigating the cause of the malware launch, it doesn't fully explain what is causing the malware file to be launched.
+
+Task: Determine what else causes the malware to be launched. The flag will be obvious when you determine this. - ```  ```
+
+
 
 
 ________________________________________________________________________________________________________________________________________
