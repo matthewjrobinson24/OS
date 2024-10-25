@@ -117,19 +117,23 @@ ________________________________________________________________________________
 ## 2: Scenario:
 The System is infected with malware. You have discovered the unusual open port.
 
-Task:
-
-Determine the file that opened the ports. Identify the process that opened the port and identify where it is running from. The flag is in the same directory.
+Task: Determine the file that opened the ports. Identify the process that opened the port and identify where it is running from. The flag is in the same directory.
 
 ``` I_m1gHt_B3_B@d ```
 ________________________________________________________________________________________________________________________________________
-## 3:
+## 3:Scenario:
+The System is infected with malware.
 
+Task: Search for any artifacts and investigate them. The flag is the name of the malware artifact file.
 
+``` SpotifySetup.exe ```
 ________________________________________________________________________________________________________________________________________
-## 4:
+## 4: Scenario:
+The system is infected with malware
 
+Task: Determine what would have initially caused this malware to run. The flag is found in the same location that caused the malware to kick off. Look for something out of place.
 
+``` Fi1e_not_found ```
 ________________________________________________________________________________________________________________________________________
 ## 5:
 
