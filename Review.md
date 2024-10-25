@@ -160,9 +160,14 @@ Task: Identify the port. The flag is the port number.
 
       netstat -lntu
 ________________________________________________________________________________________________________________________________________
-## 8:
+## 8:Scenario:
+The System is infected with malware. You have found the non-standard open port.
 
+Task: Identify the process that opened the port and identify where it is running from. The flag is in the same file.
 
+``` N@uGhTy_5cR1pT ```
+
+      cat /tmp/script.sh
 ________________________________________________________________________________________________________________________________________
 ## 9:
 
